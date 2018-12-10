@@ -37,7 +37,6 @@ $ git commit -m "Hi"
 [master ce161ed] Hi
  1 file changed, 2 insertions(+)
  create mode 100644 2018Dec
-
 Murali@BALAsALIENWARE MINGW64 ~/Practicing (master)
 $ git add 2018Dec
 
