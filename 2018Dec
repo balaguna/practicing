@@ -1,2 +1,87 @@
 Writing stuff here
 this works
+Murali@BALAsALIENWARE MINGW64 ~ (master)
+$ cd Practicing
+
+Murali@BALAsALIENWARE MINGW64 ~/Practicing (master)
+$ ls
+Practicing/  README.md
+
+Murali@BALAsALIENWARE MINGW64 ~/Practicing (master)
+$ git clone https://github.com/balaguna/practicing.git
+fatal: destination path 'practicing' already exists and is not an empty directory.
+
+Murali@BALAsALIENWARE MINGW64 ~/Practicing (master)
+$ ls
+Practicing/  README.md
+
+Murali@BALAsALIENWARE MINGW64 ~/Practicing (master)
+$ cd Practicing/
+
+Murali@BALAsALIENWARE MINGW64 ~/Practicing/Practicing (master)
+$ ls
+
+Murali@BALAsALIENWARE MINGW64 ~/Practicing/Practicing (master)
+$ cd ..
+
+Murali@BALAsALIENWARE MINGW64 ~/Practicing (master)
+$ vi 2018Dec
+
+Murali@BALAsALIENWARE MINGW64 ~/Practicing (master)
+$ git add 2018Dec
+warning: LF will be replaced by CRLF in 2018Dec.
+The file will have its original line endings in your working directory
+
+Murali@BALAsALIENWARE MINGW64 ~/Practicing (master)
+$ git commit -m "Hi"
+[master ce161ed] Hi
+ 1 file changed, 2 insertions(+)
+ create mode 100644 2018Dec
+
+Murali@BALAsALIENWARE MINGW64 ~/Practicing (master)
+$ git add 2018Dec
+
+Murali@BALAsALIENWARE MINGW64 ~/Practicing (master)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 297 bytes | 297.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/balaguna/practicing.git
+   0d5bc47..ce161ed  master -> master
+
+Murali@BALAsALIENWARE MINGW64 ~/Practicing (master)
+$ git branch
+* master
+
+Murali@BALAsALIENWARE MINGW64 ~/Practicing (master)
+$ git branch NewBranch
+
+Murali@BALAsALIENWARE MINGW64 ~/Practicing (master)
+$ git branch
+  NewBranch
+* master
+
+Murali@BALAsALIENWARE MINGW64 ~/Practicing (master)
+$ git checkout -b NewBranch1
+Switched to a new branch 'NewBranch1'
+
+Murali@BALAsALIENWARE MINGW64 ~/Practicing (NewBranch1)
+$ git branch
+  NewBranch
+* NewBranch1
+  master
+
+Murali@BALAsALIENWARE MINGW64 ~/Practicing (NewBranch1)
+$ git branch -d NewBranch
+Deleted branch NewBranch (was ce161ed).
+
+Murali@BALAsALIENWARE MINGW64 ~/Practicing (NewBranch1)
+$ git branch
+* NewBranch1
+  master
+
+Murali@BALAsALIENWARE MINGW64 ~/Practicing (NewBranch1)
+$
